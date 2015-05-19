@@ -1,0 +1,3 @@
+<?
+$username = $_POST['username']; 
+?>
