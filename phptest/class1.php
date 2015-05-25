@@ -2,19 +2,19 @@
 
 class Test1
 {
-	private $prop1 = 10;
+	public $prop1 = 10;
 
-	function setProp1($newVar)
+	public function set_Prop1($newVar)
 	{
-		$this->$prop1 = $newVar; 
+		$this->prop1 = $newVar; 
 	}
 
-	function getProp1()
+	public function get_Prop1()
 	{
-		return $this->$prop1;
+		return $this->prop1;
 	}
 
-	function sum()
+	public function sum()
 	{
 		$a = 5; $b = 10;
 		return $a + $b;
@@ -22,9 +22,9 @@ class Test1
 }
 
 $obj1 = new Test1();
-echo $obj1->getProp1;
-$obj1->setProp1 = 10;
-echo $obj1->getProp1;
+echo $obj1->get_Prop1() + '</br>';
+$obj1->set_Prop1(10);
+echo $obj1->get_Prop1();
 
 // var_dump($obj1);
 
