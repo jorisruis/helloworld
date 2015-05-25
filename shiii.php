@@ -15,5 +15,6 @@ echo $sum;
 function jemoeder()
 {
 	$a - $b;
+	wewewewewe
 }
 ?>
