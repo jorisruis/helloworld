@@ -11,4 +11,10 @@ $sum = sum();
 
 echo $sum;
 
+
+function jemoeder()
+{
+	$a - $b;
+	wewewewewe
+}
 ?>
